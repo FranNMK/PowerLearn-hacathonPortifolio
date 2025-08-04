@@ -262,11 +262,7 @@ section {
     line-height: 1.8;
     color: #64748b;
 }
-/* 
-.about-image {
-    display: flex;
-    justify-content: center; */
-}
+
 
 .image-placeholder {
    
@@ -376,13 +372,49 @@ section {
   margin-top: 15px;
 }
 
-.skill-bar {
+.skill-barhtml {
   height: 100%;
   background-color: #4CAF50;
-  width: 0%;
+  width: 96%;
   transition: width 1s ease-in-out;
   border-radius: 4px;
 }
+.skill-barcss {
+  height: 100%;
+  background-color: #4CAF50;
+  width: 70%;
+  transition: width 1s ease-in-out;
+  border-radius: 4px;
+}
+.skill-barjs {
+  height: 100%;
+  background-color: #4CAF50;
+  width: 60%;
+  transition: width 1s ease-in-out;
+  border-radius: 4px;
+}
+.skill-barmysql {
+  height: 100%;
+  background-color: #4CAF50;
+  width: 70%;
+  transition: width 1s ease-in-out;
+  border-radius: 4px;
+}
+.skill-barexcel {
+  height: 100%;
+  background-color: #4CAF50;
+  width: 75%;
+  transition: width 1s ease-in-out;
+  border-radius: 4px;
+}
+.skill-barmsaccess {
+  height: 100%;
+  background-color: #4CAF50;
+  width: 50%;
+  transition: width 1s ease-in-out;
+  border-radius: 4px;
+}
+
 
 /*  Animate skill bars on load */
 .skill-bar[data-level] {
@@ -584,8 +616,6 @@ section {
   margin-right: 6px;
   fill: #3182ce;
 }
-
-
 /* Contact Section */
 .contact-button {
   display: inline-block;
@@ -721,6 +751,7 @@ section {
   background-color: #1ebe5d;
 }
 
+
 /* Footer */
 .footer {
     background: #1e293b;
@@ -767,7 +798,7 @@ section {
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
-    background: #333;
+    background: #333333;
     color: white;
     padding: 0.5rem 0.75rem;
     border-radius: 4px;
@@ -785,7 +816,7 @@ section {
     left: 50%;
     transform: translateX(-50%);
     border: 5px solid transparent;
-    border-top-color: #333;
+    border-top-color: hsl(138, 51%, 61%);
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
@@ -796,18 +827,4 @@ section {
     opacity: 1;
     visibility: visible;
 }
-
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    /* Navigation */
-    .nav-menu 
-
-
-}
-    
-
-
-
-
 
